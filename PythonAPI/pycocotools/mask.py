@@ -1,9 +1,9 @@
 __author__ = 'tsungyi'
 
-import PythonAPI.pycocotools._mask as _mask
+import cocoapi.PythonAPI.pycocotools._mask as _mask
 
 # Interface for manipulating masks stored in RLE format.
-#
+#   
 # RLE is a simple yet efficient format for storing binary masks. RLE
 # first divides a vector (or vectorized image) into a series of piecewise
 # constant regions and then for each piece simply stores the length of
